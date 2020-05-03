@@ -1,0 +1,70 @@
+/* my code */
+*:focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+    background-image: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+body {
+    font-family: 'Oxanium', "Speda" !important;
+    src: url(Speda.ttf);
+}
+@font-face {
+    font-family: 'Speda';
+    src: url('Speda.ttf');
+}
+.radius-10 {
+    border-radius: 10px !important;
+}
+.radius-20 {
+    border-radius: 20px !important;
+}
+.box{
+    border-radius: 20px 20px 86px;   
+}
+.radius-50 {
+    border-radius: 50px !important;
+}
+.blur {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.scroll {
+    height: 580px;
+    overflow: auto;
+}
+
+.scroll-2 {
+    height: 742px;
+    overflow: auto;
+}
+.scroll-3 {
+    height: 150px;
+    overflow: auto;
+    margin:15px;
+    border-radius: 20px 20px 56px;   
+
+}
+.shadow-p {
+    box-shadow: -4px 0px 23px 1px #2DCE8E !important;
+}
+::-webkit-scrollbar {
+    width: 3px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+@media only screen and (max-width: 600px) {
+    .newbtn , .wordbtn{
+        display:block !important;
+    }
+    .content{
+        display:none;
+    }
+}
